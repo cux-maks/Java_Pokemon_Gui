@@ -1,5 +1,5 @@
 package pokemon;
 
-public class Charmander {
+public class Charmander extends monster {
 
 }

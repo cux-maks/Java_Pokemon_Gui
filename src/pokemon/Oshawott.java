@@ -1,5 +1,5 @@
 package pokemon;
 
-public class Oshawott {
+public class Oshawott extends monster {
 
 }

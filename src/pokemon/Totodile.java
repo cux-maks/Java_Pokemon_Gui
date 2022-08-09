@@ -1,5 +1,5 @@
 package pokemon;
 
-public class Totodile {
+public class Totodile extends monster {
 
 }

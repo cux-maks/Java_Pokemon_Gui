@@ -1,5 +1,5 @@
 package pokemon;
 
-public class Mudkip {
+public class Mudkip extends monster {
 
 }

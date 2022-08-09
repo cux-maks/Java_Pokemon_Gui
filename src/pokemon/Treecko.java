@@ -1,5 +1,5 @@
 package pokemon;
 
-public class Treecko {
+public class Treecko extends monster {
 
 }

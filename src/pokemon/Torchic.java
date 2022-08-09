@@ -1,5 +1,5 @@
 package pokemon;
 
-public class Torchic {
+public class Torchic extends monster {
 
 }

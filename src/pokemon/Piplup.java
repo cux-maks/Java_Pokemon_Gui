@@ -1,5 +1,5 @@
 package pokemon;
 
-public class Piplup {
+public class Piplup extends monster {
 
 }

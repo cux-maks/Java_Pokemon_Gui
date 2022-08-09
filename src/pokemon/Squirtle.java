@@ -1,5 +1,5 @@
 package pokemon;
 
-public class Squirtle {
+public class Squirtle extends monster {
 
 }

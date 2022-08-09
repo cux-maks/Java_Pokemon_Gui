@@ -1,5 +1,5 @@
 package pokemon;
 
-public class Tepig {
+public class Tepig extends monster {
 
 }

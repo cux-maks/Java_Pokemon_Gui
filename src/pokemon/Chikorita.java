@@ -1,5 +1,5 @@
 package pokemon;
 
-public class Chikorita {
+public class Chikorita extends monster {
 
 }

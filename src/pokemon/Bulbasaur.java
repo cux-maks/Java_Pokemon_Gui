@@ -1,5 +1,7 @@
 package pokemon;
 
-public class Bulbasaur {
+public class Bulbasaur extends monster {
 
+	
+	
 }

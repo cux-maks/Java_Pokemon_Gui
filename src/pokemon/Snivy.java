@@ -1,5 +1,5 @@
 package pokemon;
 
-public class Snivy {
+public class Snivy extends monster {
 
 }

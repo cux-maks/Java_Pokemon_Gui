@@ -1,5 +1,5 @@
 package pokemon;
 
-public class Cyndaquil {
+public class Cyndaquil extends monster {
 
 }

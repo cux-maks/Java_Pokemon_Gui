@@ -1,5 +1,5 @@
 package pokemon;
 
-public class Chimchar {
+public class Chimchar extends monster {
 
 }
