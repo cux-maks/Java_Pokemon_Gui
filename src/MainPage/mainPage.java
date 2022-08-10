@@ -22,8 +22,8 @@ public class mainPage extends JFrame {
 		
 		JMenuBar mb = new JMenuBar();
 		JMenu screenMenu = new JMenu("메뉴");
-		JMenuItem [] menuItem = new JMenuItem[6];
-		String[] menuName = {"메인 화면", "훈련", "내 포켓몬", "내 기술", "포켓몬 도감", "기술 도감"};
+		JMenuItem [] menuItem = new JMenuItem[7];
+		String[] menuName = {"메인 화면", "훈련", "내 포켓몬", "내 기술", "포켓몬 도감", "기술 도감", "가방"};
 		MenuActionListener listener = new MenuActionListener();
 		
 		for(int i = 0; i < menuItem.length; i++) {
@@ -58,6 +58,9 @@ public class mainPage extends JFrame {
 				System.out.println(cmd);
 				break;
 			case "기술 도감":
+				System.out.println(cmd);
+				break;
+			case "가방":
 				System.out.println(cmd);
 				break;
 			}
