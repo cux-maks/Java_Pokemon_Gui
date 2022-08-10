@@ -14,8 +14,10 @@ public class Charmander extends monster {
 			super.Set_Accuracy(100);
 			super.Set_Evasion(100);
 			super.Set_Speed(3000);
-			
+			System.out.println("Lucky! You Get Munchkin " + this.get_Name() + "!");
 		}
 	}
+	
+	public String get_Name() { return "Charmander"; }
 	
 }

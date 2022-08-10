@@ -1,11 +1,13 @@
+package MainPage;
+
 import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
 import javax.swing.event.*;
 
-public class main extends JFrame {
+public class mainPage extends JFrame {
 	
-	public main() {
+	public mainPage() {
 		
 		setTitle("포켓몬스터 대전");
 		createMenu();
@@ -64,7 +66,7 @@ public class main extends JFrame {
 
 	public static void main(String[] args) {
 		
-		main frame = new main();
+		mainPage frame = new mainPage();
 
 	}
 
