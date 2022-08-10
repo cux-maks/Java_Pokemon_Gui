@@ -6,12 +6,16 @@ import javax.swing.event.*;
 public class main extends JFrame {
 	
 	public main() {
+		
 		setTitle("포켓몬스터 대전");
 		createMenu();
-		setSize(1200, 900);
+		setSize(600, 450);
+		setLocationRelativeTo(null);
 		setVisible(true);
+		
 	}
 	
+	// 메뉴 생성
 	public void createMenu() {
 		
 		JMenuBar mb = new JMenuBar();
@@ -31,6 +35,7 @@ public class main extends JFrame {
 		
 	}
 	
+	// 메뉴 리스너
 	class MenuActionListener implements ActionListener{
 		public void actionPerformed(ActionEvent e) {
 			String cmd = e.getActionCommand();
