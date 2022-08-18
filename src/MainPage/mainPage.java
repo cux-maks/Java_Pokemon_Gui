@@ -4,6 +4,9 @@ import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
 import javax.swing.event.*;
+
+import com.sun.tools.javac.Main;
+
 import javax.swing.border.*;
 
 public class mainPage extends JFrame {
@@ -48,6 +51,7 @@ public class mainPage extends JFrame {
 						exp.setText("<html><body>설명: 태어날 때 부터 등에 있는 이상한 씨앗과 함께 성장하며 자란다.이상해씨는 며칠동안 굶어도 이상이 없는데,<br>그 이유는 씨앗에 영양분이 가득해 진화하기 전 까지 등에 자라는 씨앗에서 영양분을 얻을 수 있기 때문이다.</body></html>");
 						exp.setLocation(100, 30);
 						exp.setSize(700, 50);
+						
 						break;
 					case 1:
 						//System.out.println("파이리");
